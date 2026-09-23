@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "survey-geodesy"
+version = "0.1.0"
+description = "Geodetic computation engine for surveying: ellipsoids, datum transforms, UTM, geodesic distances"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "crieck2010" }]
+keywords = ["surveying", "geodesy", "datum", "UTM", "ellipsoid"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/crieck2010/survey-geodesy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
