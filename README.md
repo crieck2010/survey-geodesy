@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **Consolidated into [SurveySuite](https://github.com/crieck2010/survey-suite)**  
+> This engine has been consolidated into the unified [SurveySuite monorepo](https://github.com/crieck2010/survey-suite). Active development, bug fixes, releases, and unified testing now live in `survey-suite`. This repository is preserved as an archive.
+
 # survey-geodesy
 
 A pure-Python, dependency-free **geodetic computation engine** for surveying: reference ellipsoids, geodetic/ECEF conversions, Helmert datum transformations, Transverse Mercator and UTM projections, and Vincenty geodesic distances.
@@ -133,3 +137,4 @@ Part of the surveying + remote sensing suite alongside `survey-cogo`, `survey-le
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
